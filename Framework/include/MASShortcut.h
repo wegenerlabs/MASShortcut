@@ -1,0 +1,1 @@
+../Model/MASShortcut.h

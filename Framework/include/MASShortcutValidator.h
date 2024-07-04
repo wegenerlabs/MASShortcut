@@ -1,0 +1,1 @@
+../Model/MASShortcutValidator.h
