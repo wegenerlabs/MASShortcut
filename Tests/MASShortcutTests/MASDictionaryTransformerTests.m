@@ -1,3 +1,8 @@
+#import <Cocoa/Cocoa.h>
+#import <XCTest/XCTest.h>
+#import "MASShortcut.h"
+#import "MASDictionaryTransformer.h"
+
 @interface MASDictionaryTransformerTests : XCTestCase
 @end
 

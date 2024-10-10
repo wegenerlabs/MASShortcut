@@ -1,5 +1,12 @@
-[![Build Status](https://travis-ci.org/shpakovski/MASShortcut.svg?branch=master)](https://travis-ci.org/shpakovski/MASShortcut)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Note from wegenerlabs
+
+This is a fork of the original [MASShortcut project from cocoabits](https://github.com/cocoabits/MASShortcut), which is now archived.
+
+We love the framework, so we're keeping it alive here with minimal changes.
+
+For simplicity, we removed all build systems other than Swift Package Manager. We also fixed a few warnings.
+
+Thank you, cocoabits, for the amazing framework!
 
 # Intro
 
@@ -13,11 +20,9 @@ Features:
 
 * Record and display keyboard shortcuts
 * Watch for shortcuts and execute actions, system-wide
-* A nice, [documented API](http://cocoadocs.org/docsets/MASShortcut/)
 * Can be configured to be compatible with Shortcut Recorder
-* Can be installed both through CocoaPods and as a Git submodule
 * Mac App Store friendly
-* Works on OS X 10.10 and up
+* Works on OS X 10.11 and up
 * Hacking-friendly codebase covered with tests
 
 Partially done:
@@ -31,22 +36,7 @@ Pull requests welcome :)
 ### Swift Package Manager
 [Swift Package Manager](https://swift.org/package-manager/) is the simplest way to install for Xcode projects. Simply add the following Package Dependency:
     
-    https://github.com/shpakovski/MASShortcut
-
-
-### CocoaPods
-You can also use [CocoaPods](http://cocoapods.org/), by adding the following line to your Podfile:
-
-    pod 'MASShortcut'
-
-If you want to stick to the 1.x branch, you can use the version smart match operator:
-
-    pod 'MASShortcut', '~> 1'
-
-### Carthage
-You can also install via [Carthage](https://github.com/Carthage/Carthage), or you can use Git submodules and link against the MASShortcut framework manually.
-
-To build from the command line, type 'make release'. The framework will be created in a temporary directory and revealed in Finder when the build is complete.
+    https://github.com/wegenerlabs/MASShortcut
 
 # Usage
 
@@ -139,17 +129,6 @@ Swift Package Manager is the simplest way to import MASShortcut, just import the
 
 ```
 import MASShortcut
-```
-
-Alternatively, you can also:
-
-  1. Install as a Pod using the latest CocoaPods with Swift support.
-  2. Create a bridging header file [using the instructions here](http://swiftalicio.us/2014/11/using-cocoapods-from-swift/)
-  3. Your bridging header file should contain the following [two](https://github.com/shpakovski/MASShortcut/issues/36) imports:
-
-```objective-c
-#import <Cocoa/Cocoa.h>
-#import <MASShortcut/Shortcut.h>
 ```
 
 # Copyright

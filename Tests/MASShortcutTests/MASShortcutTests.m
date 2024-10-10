@@ -1,3 +1,7 @@
+#import <Cocoa/Cocoa.h>
+#import <XCTest/XCTest.h>
+#import "MASShortcut.h"
+
 @interface MASShortcutTests : XCTestCase
 @end
 

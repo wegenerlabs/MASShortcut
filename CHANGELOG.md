@@ -1,6 +1,13 @@
-Details about this file’s format at <http://keepachangelog.com/>. The change log is parsed automatically when minting releases through Fastlane, see `Fastlane/Fastfile`.
+Details about this file’s format at <http://keepachangelog.com/>.
 
 ## [Unreleased]
+
+## [2.4.1] - 2024-07-04
+
+- Remove all build systems other than Swift Package Manager
+- Simplify file structure
+- Move unit tests to new MASShortcutTests target
+- Require secure coding and test for errors in MASShortcutBinderTests
 
 ## [2.4.0] - 2019-06-11
 

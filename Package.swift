@@ -15,22 +15,15 @@ let package = Package(
     targets: [
         .target(
             name: "MASShortcut",
-            path: "Framework",
-            exclude: [
-                "Model/MASShortcutTests.m",
-                "Monitoring/MASHotKeyTests.m",
-                "Monitoring/MASShortcutMonitorTests.m",
-                "User Defaults Storage/MASDictionaryTransformerTests.m",
-                "User Defaults Storage/MASShortcutBinderTests.m",
-                "Info.plist",
-                "MASShortcut.modulemap",
-                "Prefix.pch"
-            ],
             resources: [
                 .process("Resources")
             ],
             publicHeadersPath: "include"
-        )
+        ),
+        .testTarget(
+            name: "MASShortcutTests",
+            dependencies: ["MASShortcut"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )

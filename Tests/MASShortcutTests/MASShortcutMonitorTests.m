@@ -1,3 +1,6 @@
+#import <Cocoa/Cocoa.h>
+#import <XCTest/XCTest.h>
+#import "MASShortcut.h"
 #import "MASShortcutMonitor.h"
 
 @interface MASShortcutMonitorTests : XCTestCase
