@@ -8,6 +8,8 @@ For simplicity, we removed all build systems other than Swift Package Manager. W
 
 Thank you, cocoabits, for the amazing framework!
 
+Please note: All the credit goes to [cocoabits](https://github.com/cocoabits)/Vadim Shpakovski and the [original MASShortcut contributors](https://github.com/cocoabits/MASShortcut/graphs/contributors). We're just fans of their work and want to keep it alive.
+
 # Intro
 
 Some time ago Cocoa developers used a brilliant framework [ShortcutRecorder](http://wafflesoftware.net/shortcut/) for managing keyboard shortcuts in application preferences. However, it became incompatible with the new plugin architecture of Xcode 4.
