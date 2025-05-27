@@ -1,12 +1,11 @@
-// swift-tools-version:5.4
-
+// swift-tools-version: 6.1
 import PackageDescription
 
 let package = Package(
     name: "MASShortcut",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v10_11),
+        .macOS(.v10_13),
     ],
     products: [
         .library(name: "MASShortcut",
@@ -24,6 +23,5 @@ let package = Package(
             name: "MASShortcutTests",
             dependencies: ["MASShortcut"]
         ),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
