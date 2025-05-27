@@ -2,6 +2,13 @@ Details about this file’s format at <http://keepachangelog.com/>.
 
 ## [Unreleased]
 
+## [2.4.2] - 2025-05-27
+
+- Remove swiftLanguageVersions attribute
+- Update minimum deployment target (v10_13)
+- Update swift-tools-version (6.1)
+- Update LICENSE
+
 ## [2.4.1] - 2024-07-04
 
 - Remove all build systems other than Swift Package Manager

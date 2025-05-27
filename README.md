@@ -1,4 +1,4 @@
-# Note from wegenerlabs
+# MASShortcut (wegenerlabs fork)
 
 This is a fork of the original [MASShortcut project from cocoabits](https://github.com/cocoabits/MASShortcut), which is now archived.
 
